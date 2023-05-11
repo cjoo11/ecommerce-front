@@ -36,8 +36,8 @@ export default async function handler(req, res) {
     name,
     email,
     address,
-    state,
     city,
+    state,
     zipCode,
     paid: false,
   });
