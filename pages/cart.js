@@ -209,7 +209,7 @@ export default function CartPage() {
                 onChange={(e) => setName(e.target.value)}
               />
               <Input
-                type="text"
+                type="email"
                 placeholder="Email"
                 value={email}
                 name="email"

@@ -68,6 +68,7 @@ export const ButtonStyle = css`
       background-color: transparent;
       color: ${primary};
       border: 1px solid ${primary};
+      padding: 5px;
     `}
     ${(props) =>
     props.$size === "l" &&

@@ -86,10 +86,7 @@ export default function Featured({ product }) {
             </div>
           </Column>
           <Column>
-            <img
-              src="https://149426355.v2.pressablecdn.com/wp-content/uploads/2021/10/mbp-2021-bbedit-lede.png"
-              alt=""
-            />
+            <img src={product.images[0]} alt="featured" />
           </Column>
         </ColumnsWrapper>
       </Center>
